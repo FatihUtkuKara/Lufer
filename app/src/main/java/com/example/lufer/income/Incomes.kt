@@ -1,4 +1,4 @@
-package com.example.lufer
+package com.example.lufer.income
 
 data class Incomes (var incomeNo:Int, var incomeName:String)
 {

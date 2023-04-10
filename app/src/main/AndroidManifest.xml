@@ -14,10 +14,10 @@
         android:theme="@style/Theme.Lufer"
         tools:targetApi="31">
         <activity
-            android:name=".ExpenseActivity"
+            android:name=".expense.ExpenseActivity"
             android:exported="false" />
         <activity
-            android:name=".IncomeActivity"
+            android:name=".income.IncomeActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

@@ -5,6 +5,8 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.lufer.expense.ExpenseActivity
+import com.example.lufer.income.IncomeActivity
 
 
 class MainActivity : AppCompatActivity() {
@@ -17,13 +19,13 @@ class MainActivity : AppCompatActivity() {
     fun addButton(view: View?) {
         Toast.makeText(this, "Button clicked!", Toast.LENGTH_SHORT).show()
 
-        val intent = Intent(this,IncomeActivity::class.java)
+        val intent = Intent(this, IncomeActivity::class.java)
         startActivity(intent)
     }
 
     fun subtractButton(view: View?) {
         Toast.makeText(this, "Button clicked!", Toast.LENGTH_SHORT).show()
-        val intent = Intent(this,ExpenseActivity::class.java)
+        val intent = Intent(this, ExpenseActivity::class.java)
         startActivity(intent)
     }
 }

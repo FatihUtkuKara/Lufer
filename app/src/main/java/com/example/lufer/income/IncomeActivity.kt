@@ -1,11 +1,12 @@
-package com.example.lufer
+package com.example.lufer.income
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.lufer.R
 
-class ExpenseActivity : AppCompatActivity() {
+class IncomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_expense)
+        setContentView(R.layout.activity_income)
     }
 }
