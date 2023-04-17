@@ -29,7 +29,7 @@ class MainRvAdapter (private val mContext: Context,private val mainList:List<Mai
     override fun onBindViewHolder(holder: CardViewDesignObjectHolder, position: Int) {
         val main = mainList[position]
 
-        holder.mainTextCardView.text = main.incomeName
+        holder.mainTextCardView.text = main.Name
     }
 
     override fun getItemCount(): Int {
