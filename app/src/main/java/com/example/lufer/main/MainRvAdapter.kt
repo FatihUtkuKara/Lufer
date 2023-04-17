@@ -1,4 +1,4 @@
-package com.example.lufer
+package com.example.lufer.main
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.lufer.income.Incomes
+import com.example.lufer.R
 
 class MainRvAdapter (private val mContext: Context,private val mainList:List<Main>) : RecyclerView.Adapter<MainRvAdapter.CardViewDesignObjectHolder>() {
 
