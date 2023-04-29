@@ -15,8 +15,8 @@ class ExpenseRvAdapter(private val mContext: Context, private val expenseList:Li
         var expenseCardView: CardView
         var expenseTextCardView: TextView
         init {
-            expenseCardView = view.findViewById(R.id.expenseCardView)
-            expenseTextCardView = view.findViewById(R.id.expenseTextCardView)
+            expenseCardView = view.findViewById(R.id.incomeCardView)
+            expenseTextCardView = view.findViewById(R.id.incomeTextCardView)
         }
     }
 
