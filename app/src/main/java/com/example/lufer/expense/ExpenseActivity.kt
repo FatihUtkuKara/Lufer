@@ -18,7 +18,7 @@ class ExpenseActivity : AppCompatActivity() {
         binding = ActivityExpenseBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.expenseRv.setHasFixedSize(true)
+        //binding.expenseRv.setHasFixedSize(true)
 
         binding.expenseRv.layoutManager = LinearLayoutManager(this)
 
