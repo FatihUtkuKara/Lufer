@@ -17,7 +17,7 @@ class IncomeActivity : AppCompatActivity() {
         binding = ActivityIncomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        //binding.incomeRv.setHasFixedSize(true)
+        binding.incomeRv.setHasFixedSize(true)
 
         binding.incomeRv.layoutManager = LinearLayoutManager(this)
 
